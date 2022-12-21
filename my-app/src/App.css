@@ -1,0 +1,86 @@
+body {
+  background-color: #000000;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.song-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 15px;
+  margin: 100px 0px;
+}
+
+.add-button {
+  background-color: #187bcd;
+  color: #d0efff;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+}
+.add-button:hover {
+  background-color: #03254c;
+}
+h1 {
+  color: #f5f6f7;
+}
+.song-list-table-header {
+  padding: 20px;
+  height: 50px;
+  text-align: left;
+}
+
+.song-list-table-title {
+  width: 350px;
+  color: #ffffff;
+}
+
+.song-list-table-artist {
+  width: 200px;
+  color: #ffffff;
+}
+.song-list-table-body {
+  color: white;
+}
+
+.item-title, .item-artist, .item-genre {
+  padding-left: 10px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.song-list-table-body-items:nth-child(even) {
+  background: #08990f;
+  padding-left: 10px;
+}
+
+.song-list-table-body-items:nth-child(odd) {
+  background: #164424;
+}
+
+.item-rating {
+  text-align: center;
+  font-size: 12px;
+}
+
+.song-header {
+  color: white;
+}
+
+.item-delete-button {
+  background-color: #700d0d;
+  color: #d0efff;
+  width: 70px;
+  height: 50px;
+}
+.item-delete-button:hover {
+  background-color: #ff0000;
+}
